@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace items_registration
 {
@@ -20,9 +21,19 @@ namespace items_registration
     /// </summary>
     public partial class Login : Page
     {
+        private object Txb { get; set; }
+
         public Login()
         {
             InitializeComponent();
+        }
+        public void AddItemButtonClick()
+        {
+            File.WriteAllText();
+        }
+        public void ReadItemButtonCLick()
+        {
+            File.OpenText();
         }
     }
 }

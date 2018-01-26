@@ -13,8 +13,9 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
-        <Button Content ="Add item..." Grid.Row ="1" Click="AddItemClick"/>
-        <Button Content="Remove item" Grid.Row="2" Click="RemoveItemClick"/>
+        <Button Content="Remove item" Grid.Row="2" Click="RemoveItemButtonClick"/>
+        <Button Content ="Add item..." Grid.Row ="1" Click="AddItemButtonClick"/>
     </Grid>
 </Page>
